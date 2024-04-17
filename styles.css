@@ -1,0 +1,21 @@
+header,
+header h2,
+header ul,
+header ul li{
+	display: inline;
+}
+
+div span{
+	color: #007FFF;
+}
+/*div ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+}
+div li a{
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: black;
+} */
