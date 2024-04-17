@@ -1,21 +1,28 @@
-header,
+body{
+	box-sizing: border-box;
+	font-family: 'Roboto',sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: black;
+	padding: 20px;
+}
+header h2{
+	color: white;
+	margin-left: 30px;
+}
 header h2,
 header ul,
 header ul li{
 	display: inline;
 }
 
-div span{
+header span{
 	color: #007FFF;
 }
-/*div ul{
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
-	width: 40%;
-}
-div li a{
+header ul  a{
+	color: white;
 	text-decoration: none;
-	font-size: 1.5rem;
-	color: black;
-} */
+	margin-left: 20px;
+}
